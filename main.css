@@ -22,7 +22,7 @@ body {
 }
 
 .main-search {
-    width: 100;
+    width: 100%;
     background: transparent;
     border: none;
     border-bottom: 0.25rem solid var(--brown);
@@ -55,7 +55,11 @@ body {
 
 .wait-icon {
     display: none;
+}
 
+.show {
+    display:block;
+    margin: 1rem auto;
 }
 
 .search-item {
