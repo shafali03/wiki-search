@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --LBlue:#a7cdbd;
+    --Green:#bbe1c3;
+    --brown:#91785d;
+    --darkGreen:#869d7a;
+}
+
