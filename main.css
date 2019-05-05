@@ -21,6 +21,11 @@ body {
     background: var(--peachOrange);
 }
 
+.logo {
+    display: flex;
+    align-items: flex-start;
+}
+
 .main-search {
     width: 100%;
     background: transparent;
