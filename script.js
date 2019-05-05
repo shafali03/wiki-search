@@ -49,7 +49,7 @@ function displayData(data) {
         output += ` <li class="search-item">
                 <h2 class="search-item__title">${item.title}</h2>
                 <p class="search-item__text">${item.snippet}</p>
-                <a href="http://en.wikipedia.org/?curid=${item.pageid}" class="search - item__link">read more ...</a>
+                <a href="http://en.wikipedia.org/?curid=${item.pageid}" class="search-item__link" target="_blank">read more ...</a>
             </li > `
     })
     document.querySelector('.results').innerHTML = output;

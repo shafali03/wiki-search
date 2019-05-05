@@ -5,10 +5,10 @@
 }
 
 :root {
-    --LBlue:#a7cdbd;
-    --Green:#bbe1c3;
-    --brown:#91785d;
-    --darkGreen:#869d7a;
+    --topaz:#FFC07F;
+    --sweetBrown:#A5402D;
+    --sunsetOrange:#F15156;
+    --peachOrange:#FFCF99;
 }
 
 
@@ -18,18 +18,18 @@ body {
     justify-content: center;
     margin-top: 3rem;
     text-align: center;
-    background: var(--LBlue);
+    background: var(--peachOrange);
 }
 
 .main-search {
     width: 100%;
     background: transparent;
     border: none;
-    border-bottom: 0.25rem solid var(--brown);
+    border-bottom: 0.25rem solid var(--sweetBrown);
     font-size: 3rem;
     margin: 1rem 0;
     padding:  0.5rem 0;
-    color: var(--brown);
+    color: var(--sweetBrown);
     text-transform: uppercase;
     outline: none;
 }
@@ -42,15 +42,15 @@ body {
     border-radius: 0.25rem;
     text-transform: capitalize;
     background: transparent;
-    color: var(--brown);
-    border: 0.15rem solid var(--brown);
+    color: var(--sweetBrown);
+    border: 0.15rem solid var(--sweetBrown);
     transition: all  0.3s linear;
 }
 
 
 .main-btn:hover {
-    background: var(--brown);
-    color: var(--LBlue);
+    background: var(--sweetBrown);
+    color: var(--topaz);
 }
 
 .wait-icon {
@@ -65,12 +65,12 @@ body {
 .search-item {
     text-align: left;
     list-style-type: none;
-    border: 0.05rem solid var(--darkGreen);
+    border: 0.05rem solid var(--sunsetOrange);
     padding: 1rem;
     margin: 1rem 0;
     background: var(--lightGreen);
     border-radius: 0.5rem;
-    box-shadow: 0px 10px 10px var(--darkGreen);
+    box-shadow: 0px 10px 10px var(--sunsetOrange);
 }
 
 .search-item__title {
@@ -86,14 +86,14 @@ body {
 
 .search-item__link {
     text-decoration: none;
-    color: var(--brown);
+    color: var(--sweetBrown);
     font-size: 1.2rem;
     transition: all 0.2s ease-in-out;
 
 }
 
 .search-item__link:hover {
-    color:var(--darkGreen);
+    color:var(--sunsetOrange);
 }
 
 @media screen and (min-width: 992px) {
